@@ -1,0 +1,15 @@
+C:\Users\lukem\Desktop\ROV_GUI\RovGUI\obj\Debug\RovGUI.csprojResolveAssemblyReference.cache
+C:\Users\lukem\Desktop\ROV_GUI\RovGUI\obj\Debug\MainWindow.g.cs
+C:\Users\lukem\Desktop\ROV_GUI\RovGUI\obj\Debug\App.g.cs
+C:\Users\lukem\Desktop\ROV_GUI\RovGUI\obj\Debug\RovGUI_MarkupCompile.cache
+C:\Users\lukem\Desktop\ROV_GUI\RovGUI\obj\Debug\RovGUI_MarkupCompile.lref
+C:\Users\lukem\Desktop\ROV_GUI\RovGUI\bin\Debug\RovGUI.exe.config
+C:\Users\lukem\Desktop\ROV_GUI\RovGUI\bin\Debug\RovGUI.exe
+C:\Users\lukem\Desktop\ROV_GUI\RovGUI\bin\Debug\RovGUI.pdb
+C:\Users\lukem\Desktop\ROV_GUI\RovGUI\obj\Debug\MainWindow.baml
+C:\Users\lukem\Desktop\ROV_GUI\RovGUI\obj\Debug\RovGUI.g.resources
+C:\Users\lukem\Desktop\ROV_GUI\RovGUI\obj\Debug\RovGUI.Properties.Resources.resources
+C:\Users\lukem\Desktop\ROV_GUI\RovGUI\obj\Debug\RovGUI.csproj.GenerateResource.Cache
+C:\Users\lukem\Desktop\ROV_GUI\RovGUI\obj\Debug\RovGUI.csproj.CoreCompileInputs.cache
+C:\Users\lukem\Desktop\ROV_GUI\RovGUI\obj\Debug\RovGUI.exe
+C:\Users\lukem\Desktop\ROV_GUI\RovGUI\obj\Debug\RovGUI.pdb

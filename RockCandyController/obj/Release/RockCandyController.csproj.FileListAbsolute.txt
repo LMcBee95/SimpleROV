@@ -1,0 +1,16 @@
+C:\Users\lukem\Desktop\ROV_GUI\RockCandyController\bin\Release\RockCandyController.exe.config
+C:\Users\lukem\Desktop\ROV_GUI\RockCandyController\bin\Release\RockCandyController.exe
+C:\Users\lukem\Desktop\ROV_GUI\RockCandyController\bin\Release\RockCandyController.pdb
+C:\Users\lukem\Desktop\ROV_GUI\RockCandyController\bin\Release\SharpDX.dll
+C:\Users\lukem\Desktop\ROV_GUI\RockCandyController\bin\Release\SharpDX.XInput.dll
+C:\Users\lukem\Desktop\ROV_GUI\RockCandyController\bin\Release\SharpDX.pdb
+C:\Users\lukem\Desktop\ROV_GUI\RockCandyController\bin\Release\SharpDX.XInput.pdb
+C:\Users\lukem\Desktop\ROV_GUI\RockCandyController\bin\Release\SharpDX.XInput.xml
+C:\Users\lukem\Desktop\ROV_GUI\RockCandyController\obj\Release\RockCandyController.csproj.CoreCompileInputs.cache
+C:\Users\lukem\Desktop\ROV_GUI\RockCandyController\obj\Release\RockCandyController.exe
+C:\Users\lukem\Desktop\ROV_GUI\RockCandyController\obj\Release\RockCandyController.pdb
+C:\Users\lukem\Desktop\ROV_GUI\RockCandyController\bin\Release\Costura.dll
+C:\Users\lukem\Desktop\ROV_GUI\RockCandyController\bin\Release\Costura.xml
+C:\Users\lukem\Desktop\ROV_GUI\RockCandyController\obj\Release\RockCandyController.csprojResolveAssemblyReference.cache
+C:\Users\lukem\Documents\GitHub\SimpleROV\RockCandyController\obj\Release\RockCandyController.exe
+C:\Users\lukem\Documents\GitHub\SimpleROV\RockCandyController\obj\Release\RockCandyController.pdb

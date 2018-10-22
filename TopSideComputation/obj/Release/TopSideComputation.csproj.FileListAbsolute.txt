@@ -1,0 +1,12 @@
+C:\Users\lukem\Documents\GitHub\SimpleROV\TopSideComputation\obj\Release\TopSideComputation.csprojResolveAssemblyReference.cache
+C:\Users\lukem\Documents\GitHub\SimpleROV\TopSideComputation\obj\Release\TopSideComputation.csproj.CoreCompileInputs.cache
+C:\Users\lukem\Documents\GitHub\SimpleROV\TopSideComputation\bin\Release\TopSideComputation.exe.config
+C:\Users\lukem\Documents\GitHub\SimpleROV\TopSideComputation\bin\Release\TopSideComputation.exe
+C:\Users\lukem\Documents\GitHub\SimpleROV\TopSideComputation\bin\Release\TopSideComputation.pdb
+C:\Users\lukem\Documents\GitHub\SimpleROV\TopSideComputation\bin\Release\SharpDX.dll
+C:\Users\lukem\Documents\GitHub\SimpleROV\TopSideComputation\bin\Release\SharpDX.XInput.dll
+C:\Users\lukem\Documents\GitHub\SimpleROV\TopSideComputation\bin\Release\SharpDX.pdb
+C:\Users\lukem\Documents\GitHub\SimpleROV\TopSideComputation\bin\Release\SharpDX.XInput.pdb
+C:\Users\lukem\Documents\GitHub\SimpleROV\TopSideComputation\bin\Release\SharpDX.XInput.xml
+C:\Users\lukem\Documents\GitHub\SimpleROV\TopSideComputation\obj\Release\TopSideComputation.exe
+C:\Users\lukem\Documents\GitHub\SimpleROV\TopSideComputation\obj\Release\TopSideComputation.pdb

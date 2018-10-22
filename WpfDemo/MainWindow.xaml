@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfDemo"
+        xmlns:uc="clr-namespace:WpfDemo.UserControls"
+        xmlns:vm="clr-namespace:WpfDemo.ViewModels"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" SizeToContent="WidthAndHeight" MinWidth="5in">
+    <Window.Resources>
+        <ResourceDictionary>
+            <vm:HelloModel x:Key="helloViewModel" />
+        </ResourceDictionary>
+    </Window.Resources>
+    <uc:HelloUC DataContext="{StaticResource helloViewModel}" />
+</Window>

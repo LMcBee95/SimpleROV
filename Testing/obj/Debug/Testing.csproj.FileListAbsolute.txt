@@ -1,0 +1,7 @@
+C:\Users\lukem\Desktop\ROV_GUI\Testing\bin\Debug\Testing.exe.config
+C:\Users\lukem\Desktop\ROV_GUI\Testing\bin\Debug\Testing.exe
+C:\Users\lukem\Desktop\ROV_GUI\Testing\bin\Debug\Testing.pdb
+C:\Users\lukem\Desktop\ROV_GUI\Testing\obj\Debug\Testing.csprojResolveAssemblyReference.cache
+C:\Users\lukem\Desktop\ROV_GUI\Testing\obj\Debug\Testing.csproj.CoreCompileInputs.cache
+C:\Users\lukem\Desktop\ROV_GUI\Testing\obj\Debug\Testing.exe
+C:\Users\lukem\Desktop\ROV_GUI\Testing\obj\Debug\Testing.pdb

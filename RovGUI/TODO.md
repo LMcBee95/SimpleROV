@@ -1,0 +1,34 @@
+﻿TODO: Main functionality
+--- Test game controller library and get button mapping down
+--- Test keyboard button mapping and map buttons
+--- Determine what kind of buttons are needed to control the ROV
+--- Get an arduino with Ethernet shield up and running
+--- Determine the best way to communicate between ethernet shield and GUI
+--- Set up a wide variety of objects and add bindings
+--- Have way to visualize the thruster output and/or the keyboard inputs
+--- Have a way to notify the user incase a problem occurs
+--- Note : Don't do everything. Do just enough, but leave some good spots for others to add what they want
+
+TODO: Learning
+--- Find examples on how to use visual studio
+------ Importing a solution and what are projects
+------ How to debug an application
+------ How to select which project to run
+------ How to generate a .exe
+------ How to add a reference to a local library
+------ How to use nugget to find libraries
+--- Document all code so that students understand what is going on
+--- Create a readme to describe how the code for the GUI works
+--- Have different files available as examples for understanding /learning something
+------ For loops, while loops, if statements
+------ Basic data structures : Lists (templating), set, ObservableCollection
+------ Class stuff : methods, private var, public var
+------ Getters & Setters
+------ Error Handling : try, catch
+------ Background workers and multi threading
+------ Using libraries and how to reference different things in libraries
+--- How to make good XML
+------ What is XML?
+------ TextBox
+------ Button
+------ 

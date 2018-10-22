@@ -1,0 +1,12 @@
+C:\Users\lukem\Desktop\ROV_GUI\RockCandyController\bin\Debug\RockCandyController.exe.config
+C:\Users\lukem\Desktop\ROV_GUI\RockCandyController\bin\Debug\RockCandyController.exe
+C:\Users\lukem\Desktop\ROV_GUI\RockCandyController\bin\Debug\RockCandyController.pdb
+C:\Users\lukem\Desktop\ROV_GUI\RockCandyController\bin\Debug\SharpDX.dll
+C:\Users\lukem\Desktop\ROV_GUI\RockCandyController\bin\Debug\SharpDX.XInput.dll
+C:\Users\lukem\Desktop\ROV_GUI\RockCandyController\bin\Debug\SharpDX.pdb
+C:\Users\lukem\Desktop\ROV_GUI\RockCandyController\bin\Debug\SharpDX.XInput.pdb
+C:\Users\lukem\Desktop\ROV_GUI\RockCandyController\bin\Debug\SharpDX.XInput.xml
+C:\Users\lukem\Desktop\ROV_GUI\RockCandyController\obj\Debug\RockCandyController.csprojResolveAssemblyReference.cache
+C:\Users\lukem\Desktop\ROV_GUI\RockCandyController\obj\Debug\RockCandyController.csproj.CoreCompileInputs.cache
+C:\Users\lukem\Desktop\ROV_GUI\RockCandyController\obj\Debug\RockCandyController.exe
+C:\Users\lukem\Desktop\ROV_GUI\RockCandyController\obj\Debug\RockCandyController.pdb
