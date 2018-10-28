@@ -1,0 +1,14 @@
+C:\Users\lukem\Documents\GitHub\SimpleROV\XBoxController\obj\Debug\XBoxController.csprojResolveAssemblyReference.cache
+C:\Users\lukem\Documents\GitHub\SimpleROV\XBoxController\obj\Debug\XBoxController.csproj.CoreCompileInputs.cache
+C:\Users\lukem\Documents\GitHub\SimpleROV\XBoxController\obj\Debug\XBoxController.exe
+C:\Users\lukem\Documents\GitHub\SimpleROV\XBoxController\obj\Debug\XBoxController.pdb
+C:\Users\lukem\Documents\GitHub\SimpleROV\XBoxController\bin\Debug\XBoxController.exe.config
+C:\Users\lukem\Documents\GitHub\SimpleROV\XBoxController\bin\Debug\XBoxController.exe
+C:\Users\lukem\Documents\GitHub\SimpleROV\XBoxController\bin\Debug\XBoxController.pdb
+C:\Users\lukem\Documents\GitHub\SimpleROV\XBoxController\bin\Debug\Costura.dll
+C:\Users\lukem\Documents\GitHub\SimpleROV\XBoxController\bin\Debug\SharpDX.dll
+C:\Users\lukem\Documents\GitHub\SimpleROV\XBoxController\bin\Debug\SharpDX.XInput.dll
+C:\Users\lukem\Documents\GitHub\SimpleROV\XBoxController\bin\Debug\Costura.xml
+C:\Users\lukem\Documents\GitHub\SimpleROV\XBoxController\bin\Debug\SharpDX.pdb
+C:\Users\lukem\Documents\GitHub\SimpleROV\XBoxController\bin\Debug\SharpDX.XInput.pdb
+C:\Users\lukem\Documents\GitHub\SimpleROV\XBoxController\bin\Debug\SharpDX.XInput.xml

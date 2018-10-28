@@ -32,28 +32,240 @@ namespace XBoxController
 
     class RockCandyController
     {
+        private static Mutex inputMutex = new Mutex();
+
         Controller controller;
         Gamepad gamepad;
         public bool connected = false;
         public int deadband = 2500;
         public Point leftThumb, rightThumb = new Point(0, 0);
-        public float leftTrigger = 0; 
-        public float rightTrigger = 0;
+
+
+        public float _leftTrigger = 0;
+        public float leftTrigger
+        {
+            get
+            {
+                inputMutex.WaitOne();
+                float temp = _leftTrigger;
+                inputMutex.ReleaseMutex();
+                return temp;
+            }
+            set
+            {
+                _leftTrigger = value;
+            }
+        }
+
+        private float _rightTrigger = 0;
+        public float rightTrigger
+        {
+            get
+            {
+                inputMutex.WaitOne();
+                float temp = _rightTrigger;
+                inputMutex.ReleaseMutex();
+                return temp;
+            }
+            set
+            {
+                _rightTrigger = value;
+            }
+        }
 
         public GamepadButtonFlags ButtonFlags = new GamepadButtonFlags();
 
-        public bool DPadUp = false;
-        public bool DPadDown = false;
-        public bool DPadLeft = false;
-        public bool DPadRight = false;
-        public bool AButton = false;
-        public bool BButton = false;
-        public bool XButton = false;
-        public bool YButton = false;
-        public bool LeftShoulder = false;
-        public bool RightShoulder = false;
-        public bool StartButton = false;
-        public bool BackButton = false;
+        private bool _DPadUp = false;
+        public bool DPadUp
+        {
+            get
+            {
+                inputMutex.WaitOne();
+                bool temp = _DPadUp;
+                inputMutex.ReleaseMutex();
+                return temp;
+            }
+            set
+            {
+                _DPadUp = value;
+            }
+        }
+
+        private bool _DPadDown = false;
+        public bool DPadDown
+        {
+            get
+            {
+                inputMutex.WaitOne();
+                bool temp = _DPadDown;
+                inputMutex.ReleaseMutex();
+                return temp;
+            }
+            set
+            {
+                _DPadDown = value;
+            }
+        }
+
+        private bool _DPadLeft = false;
+        public bool DPadLeft
+        {
+            get
+            {
+                inputMutex.WaitOne();
+                bool temp = _DPadLeft;
+                inputMutex.ReleaseMutex();
+                return temp;
+            }
+            set
+            {
+                _DPadLeft = value;
+            }
+        }
+
+        private bool _DPadRight = false;
+        public bool DPadRight
+        {
+            get
+            {
+                inputMutex.WaitOne();
+                bool temp = _DPadRight;
+                inputMutex.ReleaseMutex();
+                return temp;
+            }
+            set
+            {
+                _DPadRight = value;
+            }
+        }
+
+        private bool _AButton = false;
+        public bool AButton
+        {
+            get
+            {
+                inputMutex.WaitOne();
+                bool temp = _AButton;
+                inputMutex.ReleaseMutex();
+                return temp;
+            }
+            set
+            {
+                _AButton = value;
+            }
+        }
+
+        private bool _BButton = false;
+        public bool BButton
+        {
+            get
+            {
+                inputMutex.WaitOne();
+                bool temp = _BButton;
+                inputMutex.ReleaseMutex();
+                return temp;
+            }
+            set
+            {
+                _BButton = value;
+            }
+        }
+
+        private bool _XButton = false;
+        public bool XButton
+        {
+            get
+            {
+                inputMutex.WaitOne();
+                bool temp = _XButton;
+                inputMutex.ReleaseMutex();
+                return temp;
+            }
+            set
+            {
+                _XButton = value;
+            }
+        }
+
+        private bool _YButton = false;
+        private bool YButton
+        {
+            get
+            {
+                inputMutex.WaitOne();
+                bool temp = _YButton;
+                inputMutex.ReleaseMutex();
+                return temp;
+            }
+            set
+            {
+                _YButton = value;
+            }
+        }
+
+        public bool _LeftShoulder = false;
+        private bool LeftShoulder
+        {
+            get
+            {
+                inputMutex.WaitOne();
+                bool temp = _LeftShoulder;
+                inputMutex.ReleaseMutex();
+                return temp;
+            }
+            set
+            {
+                _LeftShoulder = value;
+            }
+        }
+
+        public bool _RightShoulder = false;
+        private bool RightShoulder
+        {
+            get
+            {
+                inputMutex.WaitOne();
+                bool temp = _RightShoulder;
+                inputMutex.ReleaseMutex();
+                return temp;
+            }
+            set
+            {
+                _RightShoulder = value;
+            }
+        }
+
+        public bool _StartButton = false;
+        private bool StartButton
+        {
+            get
+            {
+                inputMutex.WaitOne();
+                bool temp = _StartButton;
+                inputMutex.ReleaseMutex();
+                return temp;
+            }
+            set
+            {
+                _StartButton = value;
+            }
+        }
+
+        public bool _BackButton = false;
+        private bool BackButton
+        {
+            get
+            {
+                inputMutex.WaitOne();
+                bool temp = _BackButton;
+                inputMutex.ReleaseMutex();
+                return temp;
+            }
+            set
+            {
+                _BackButton = value;
+            }
+        }
 
         public RockCandyController()
         {
@@ -79,6 +291,9 @@ namespace XBoxController
             if (!connected)
                 return;
 
+            // Lock the variables of this class
+            inputMutex.WaitOne();
+
             gamepad = controller.GetState().Gamepad;
 
             leftThumb.x = (Math.Abs((float)gamepad.LeftThumbX) < deadband) ? 0 : (float)gamepad.LeftThumbX / short.MinValue * -100;
@@ -103,6 +318,8 @@ namespace XBoxController
             RightShoulder = ((ushort)ButtonFlags & (ushort)GamepadButtonFlags.RightShoulder) != 0;
             StartButton = ((ushort)ButtonFlags & (ushort)GamepadButtonFlags.Start) != 0;
             BackButton = ((ushort)ButtonFlags & (ushort)GamepadButtonFlags.Back) != 0;
+
+            inputMutex.ReleaseMutex();
         }
 
         public struct Point

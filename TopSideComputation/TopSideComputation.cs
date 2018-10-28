@@ -38,7 +38,6 @@ namespace TopSideComputation
             InputProcessor = new GamePadProcessor();
             DataProcessor = new PostProcessor();
             RovComms = new ArduinoCommunication();
-
         }
 
         public void StartSendingData()
